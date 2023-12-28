@@ -1,0 +1,45 @@
+.welcome-container {
+    color: white;
+    width: 100%;
+    min-height: 100%;
+}
+
+.welcome-text{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.welcome-card{
+    margin-top: 200px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-text{
+    margin-top: -20px;
+    padding-right: 5px;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+}
+
+.border-info{
+    border-right: 3px solid mediumorchid;
+    border-radius: 1px;
+    margin-right: 5px;
+}
+
+.project-button{
+    border: 1px solid mediumorchid;
+    border-radius: 5px;
+    padding: 10px 65px;
+}
+
