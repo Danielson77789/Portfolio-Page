@@ -1,6 +1,13 @@
 import './css/WelcomeCard.css'
+import { useNavigate } from "react-router-dom";
 
 const WelcomeCard = () => {
+  const navigate = useNavigate()
+
+  const navigateProjects = () => {
+    navigate("/projects")
+  }
+
   return (
     <div className='welcome-container'>
         <div className='welcome-card'>
@@ -11,7 +18,7 @@ const WelcomeCard = () => {
             </div>
 
             <div className='welcome-navigation'>
-                <button className='project-button'>Projects</button>
+                <button onClick={navigateProjects} className='project-button'>Projects</button>
             </div>
         </div>
     </div>

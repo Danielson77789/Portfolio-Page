@@ -1,0 +1,30 @@
+.modal {
+    height: 100%;
+    width: 100%;
+    color: var(--font-default);
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-exit-container {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-content{
+    margin: 0px 25px;
+    font-size: 40px;
+}
+
+.button-container {
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 5px;
+}

@@ -1,5 +1,5 @@
 .welcome-container {
-    color: white;
+    color: var(--font-default);
     width: 100%;
     min-height: 100%;
 }
@@ -10,6 +10,8 @@
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0px;
     padding-bottom: 5px;
+    color: var(--font-default);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .welcome-card{
@@ -23,6 +25,8 @@
 .info-text{
     margin-top: -20px;
     padding-right: 5px;
+    color: var(--font-default);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .info-card{
@@ -41,5 +45,12 @@
     border: 1px solid mediumorchid;
     border-radius: 5px;
     padding: 10px 65px;
+    background-color: var(--background-color);
+    color: var(--font-default);
+}
+
+.project-button:hover{
+    background-color: purple;
+    box-shadow: 0 0 10px 5px purple;
 }
 

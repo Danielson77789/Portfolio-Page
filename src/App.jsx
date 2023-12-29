@@ -1,13 +1,18 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import WelcomeCard from './components/WelcomeCard'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
 
 function App() {
 
   return (
     <div className='app-body'>
-      <Navbar/>
-      <WelcomeCard/>
+      <BrowserRouter>
+        <Routes>
+          <Route index path='/' element={<Home/>}/>
+          <Route index path='/projects' element={<Projects/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

@@ -14,8 +14,9 @@
 }
 
 .logo-container{
-    color: white;
+    color: var(--font-default);
     margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div.navigation-container > * {
@@ -23,10 +24,13 @@ div.navigation-container > * {
 }
 
 div > button {
-    color: white;
+    color: var(--font-default);
     border: none;
-    background-color: black;
+    background-color: var(--background-color);
     font-weight: 900;
     cursor: pointer;
 }
 
+.menu-icon{
+    color: var(--font-default);
+}
