@@ -1,0 +1,17 @@
+@keyframes spin {
+    from {transform:rotateY(0deg);}
+    to {transform:rotateY(360deg);}
+}
+
+
+.circle-1{
+    background-color: rgba(0, 0, 0, 0);
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    border-top: 2px dotted purple;
+    border-bottom: 2px dotted purple;
+    animation: spin 20s linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}

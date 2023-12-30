@@ -7,9 +7,6 @@ import { IoClose } from "react-icons/io5";
 import { FiMenu } from "react-icons/fi"
 import { useNavigate } from "react-router-dom";
 
-
-
-
 const style = {
   position: 'absolute',
   width: '100%',
@@ -42,6 +39,7 @@ const MenuModal = () => {
     <div>
       <Button onClick={handleOpen} color='secondary'><FiMenu size='25'/></Button>
       <Modal
+        className='modal-body'
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
