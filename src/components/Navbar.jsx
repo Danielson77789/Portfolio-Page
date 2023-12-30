@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import { FiMenu } from "react-icons/fi"
 import './css/Navbar.css'
 import MenuModal from './MenuModal'
+import { FaRegLightbulb } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -35,10 +35,12 @@ const Navbar = () => {
         <h2>Daniel Peterson</h2>
       </div>
       <div className='navigation-container'>
-      <button onClick={toggleTheme} type='checkbox'>Theme</button>
-      <div>
-        <MenuModal/>
-      </div>
+        <div className='theme-container'>
+          <button onClick={toggleTheme} type='checkbox' className='theme-button'><FaRegLightbulb color='#ab47bc' size='20'/></button>
+        </div>
+        <div className='menu-container'>
+          <MenuModal/>
+        </div>
       </div>
     </div>
   )

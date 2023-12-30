@@ -5,7 +5,6 @@ import Modal from '@mui/material/Modal';
 import './css/MenuModal.css'
 import { IoClose } from "react-icons/io5";
 import { FiMenu } from "react-icons/fi"
-import { purple } from '@mui/material/colors';
 import { useNavigate } from "react-router-dom";
 
 
@@ -41,7 +40,7 @@ const MenuModal = () => {
 
   return (
     <div>
-      <Button onClick={handleOpen} color='secondary'><FiMenu size='20'/></Button>
+      <Button onClick={handleOpen} color='secondary'><FiMenu size='25'/></Button>
       <Modal
         open={open}
         onClose={handleClose}

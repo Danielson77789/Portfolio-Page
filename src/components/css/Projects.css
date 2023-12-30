@@ -1,0 +1,38 @@
+.project-card-container{
+    display: grid;
+    grid-template-columns: 2;
+    gap: 45px;
+    grid-template-rows: minmax(100px, auto);
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-container{
+    width: 50%;
+}
+
+.card-one{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.card-two{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.card-three{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.card-four{
+    width: 100%;
+    height: 300px;
+}

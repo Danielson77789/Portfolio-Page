@@ -10,7 +10,7 @@
 .navigation-container{
     margin: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .logo-container{
@@ -33,4 +33,14 @@ div > button {
 
 .menu-icon{
     color: var(--font-default);
+}
+
+.theme-container{
+    margin-right: -100px;
+}
+
+.theme-button {
+    margin-top: 7px;
+    margin-right: -45px;
+    padding: 0;
 }
