@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import './css/Navbar.css'
 import MenuModal from './MenuModal'
 import { FaRegLightbulb } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+
 
 const Navbar = () => {
+  const navigate = useNavigate()
+
+
+  const navigateHome = () => {
+    navigate("/")
+  }
+
 
   const setDarkMode = () => {
     document.querySelector("body").setAttribute('data-theme', 'dark')
@@ -31,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar-body'>
-      <div className='logo-container'>
+      <div className='logo-container' onClick={navigateHome}>
         <h2>Daniel Peterson</h2>
       </div>
       <div className='navigation-container'>

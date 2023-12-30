@@ -1,4 +1,4 @@
-import './css/CustomProjectCard.css'
+import './css/ProjectFlipCard.css'
 import { FaUnity } from "react-icons/fa";
 import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
@@ -22,8 +22,8 @@ const ProjectFlipCard = ({projectType, title, description}) => {
             <div className='info-title'>
                 <h2>{title}</h2>
             </div>
-            <div className='card-button'>
-                <button onClick={()=>{handleClick()}}>Read More</button>
+            <div className='card-button-container'>
+                <button className='card-button' onClick={()=>{handleClick()}}>Read More</button>
             </div>
         </div>
     </div>
@@ -38,8 +38,8 @@ const ProjectFlipCard = ({projectType, title, description}) => {
                 {description}
                 </p>
             </div>
-            <div className='card-button'>
-                <button onClick={()=>{handleClick()}}>Read More</button>
+            <div className='card-button-container'>
+                <button className='card-button' onClick={()=>{handleClick()}}>Read More</button>
             </div>
         </div>
     </div>

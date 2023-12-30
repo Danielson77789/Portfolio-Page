@@ -5,12 +5,16 @@ body {
 
 :root {
   --background-color: black;
+  --background-opp: white;
   --secondary: #3A3B3C;
   --font-default: white;
+  --font-opp: black;
 }
 
 [data-theme="light"] {
   --background-color: white;
+  --background-opp: black;
   --secondary: #c2b7c7;
   --font-default: black;
+  --font-opp: white;
 }

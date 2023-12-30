@@ -49,8 +49,27 @@
     color: var(--font-default);
 }
 
-.project-button:hover{
-    background-color: purple;
-    box-shadow: 0 0 10px 5px purple;
+.linkedin-button{
+    border: 1px solid blue;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px 65px;
+    background-color: var(--background-color);
+    color: var(--font-default);
 }
 
+.linkedin-button:hover{
+    background-color: blue;
+    box-shadow: 0 0 10px 5px blue;
+}
+
+.project-button:hover{
+    background-color: mediumorchid;
+    box-shadow: 0 0 10px 5px mediumorchid;
+}
+
+.linkedin-icon{
+    margin-right: 5px;
+    margin-bottom: -2px;
+}

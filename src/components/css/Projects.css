@@ -7,6 +7,19 @@
     justify-content: center;
 }
 
+.header{
+    color: var(--font-default);
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-container{
+    width: 50%;
+    border-bottom: 1px solid var(--font-default);
+}
+
 .projects-body{
     display: flex;
     flex-direction: column;
@@ -15,6 +28,7 @@
 
 .projects-container{
     width: 50%;
+    margin-bottom: 75px;
 }
 
 .card-one{

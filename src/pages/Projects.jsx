@@ -3,12 +3,18 @@ import Navbar from '../components/Navbar'
 import '../components/css/Projects.css'
 import bloomFlip from '../components/assets/bloom-flip.gif'
 import towerDefence from '../components/assets/tower-def.gif'
+import { PiVault } from "react-icons/pi";
 
 
 const Projects = () => {
   return (
     <div className='projects-body'>
       <Navbar/>
+      <div className='header-container'>
+        <h2 className='header'>
+          Project<br/>Vault<PiVault/>
+        </h2>
+      </div>
       <div className='projects-container'>
 
           <div className='card-four'>

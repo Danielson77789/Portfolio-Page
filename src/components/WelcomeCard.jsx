@@ -1,5 +1,6 @@
 import './css/WelcomeCard.css'
 import { useNavigate } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
 
 const WelcomeCard = () => {
   const navigate = useNavigate()
@@ -19,7 +20,9 @@ const WelcomeCard = () => {
 
             <div className='welcome-navigation'>
                 <button onClick={navigateProjects} className='project-button'>Projects</button>
+                <a href='https://www.linkedin.com/in/daniel-peterson-bbab641b8/'><button onClick={navigateProjects} className='linkedin-button'><FaLinkedin size='15' className='linkedin-icon' />Linkedin</button></a>
             </div>
+            
         </div>
     </div>
   )
