@@ -1,7 +1,6 @@
 import './css/WelcomeCard.css'
 import { useNavigate } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
-import CircleAnimation from './CircleAnimation';
 
 const WelcomeCard = () => {
   const navigate = useNavigate()
@@ -9,6 +8,7 @@ const WelcomeCard = () => {
   const navigateProjects = () => {
     navigate("/projects")
   }
+
 
   return (
     <div className='welcome-container'>
