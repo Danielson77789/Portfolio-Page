@@ -30,7 +30,7 @@ const MenuModal = () => {
   }
 
   const navigateHome = () => {
-    navigate("/")
+    navigate("/Portfolio-Page")
     setOpen(false)
   }
 

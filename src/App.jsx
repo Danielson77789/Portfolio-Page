@@ -9,7 +9,7 @@ function App() {
     <div className='app-body'>
       <BrowserRouter>
         <Routes>
-          <Route index path='/' element={<Home/>}/>
+          <Route index path='/Portfolio-Page' element={<Home/>}/>
           <Route index path='/projects' element={<Projects/>}/>
         </Routes>
       </BrowserRouter>

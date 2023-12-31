@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
   const navigateHome = () => {
-    navigate("/")
+    navigate("/Portfolio-Page")
   }
 
 
