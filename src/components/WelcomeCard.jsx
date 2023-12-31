@@ -24,7 +24,7 @@ const WelcomeCard = () => {
                 <a href='https://www.linkedin.com/in/daniel-peterson-bbab641b8/'><button onClick={navigateProjects} className='linkedin-button'><FaLinkedin size='15' className='linkedin-icon' />Linkedin</button></a>
             </div>
 
-            <CircleAnimation></CircleAnimation>
+            {/* <CircleAnimation></CircleAnimation> */}
             
         </div>
     </div>
