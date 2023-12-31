@@ -29,6 +29,8 @@
     font-size: 20px;
     margin: 0px 25px;
     border-bottom: 1px solid var(--secondary);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .info-container{
@@ -73,4 +75,8 @@
     margin: 0px 15px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.project-description{
+    font-size: 15px;
 }
